@@ -1,0 +1,108 @@
+#fullpage{
+    margin: 2px 8px 2px 50px; ;
+     font-family: 'Roboto Slab', serif;;
+}
+
+header{
+    display: flex;
+}
+button{
+    text-align: end;
+    cursor: pointer;
+    border: none;
+}
+
+#New{
+    background-color:rgba(72, 72, 72, 0.2) ;
+    color: red;
+    border-radius: 3px;
+    font-size: small;
+}
+p{
+    font-size: large;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+ul {
+      list-style:none;
+      padding: 0px 0px 0px 0px ;
+      
+}
+li{
+    
+    border: 0.5px solid black;
+    width: 210px;
+    min-height: 20px;
+    padding: 10px 10px;
+    margin: 15px 0px 10px 0px ;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0.1px  grey; 
+    font-size: medium; 
+}
+h4{
+    text-align: center;
+}
+#red{
+    font-size: large;
+    padding: 10px 10px ;
+    border-radius: 10px;
+    
+    background-color: rgb(255 , 0 , 0 ,0.3);
+    
+
+    
+}
+#yellow{
+    font-size: large;
+    padding: 10px 10px ;
+    border-radius: 10px;
+    background-color: rgb(255 , 255 , 0 , 0.3);
+    
+}
+#green{
+    font-size: large;
+    padding: 10px 10px ;
+    border-radius: 10px;
+    background-color: rgba(147, 232, 20, 0.3);
+    
+}
+.na{
+    border: none;
+    width: 200px;
+    height: 300px; 
+
+}
+.nameList{
+    /* border: 1px solid black; */
+    width: 200px;
+    min-height: 300px;
+}
+#total{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    outline: none;
+    border: none;
+    width: 215px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    height: 25px;
+    font-size: medium;
+    
+}
+input:hover {
+    background-color: rgb(116, 116, 116 , 0.2);
+    /* border: 1px solid black; */
+    box-shadow: 4px 4px 8px 0.1px  grey;
+}
+ #output, #output1, #output2{
+    padding-left: 50px;
+    opacity: 0.5;
+}
+.hide{
+    display: none;
+}
